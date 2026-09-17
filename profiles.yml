@@ -1,0 +1,83 @@
+user:
+  outputs:
+    default:
+      keyfile_json:
+        auth_provider_x509_cert_url: https://www.googleapis.com/oauth2/v1/certs
+        auth_uri: https://accounts.google.com/o/oauth2/auth
+        client_email: terraform-runner@project-c02f22a2-e03c-4345-a97.iam.gserviceaccount.com
+        client_id: '108491018870117461296'
+        client_x509_cert_url: https://www.googleapis.com/robot/v1/metadata/x509/terraform-runner%40project-c02f22a2-e03c-4345-a97.iam.gserviceaccount.com
+        private_key: '-----BEGIN PRIVATE KEY-----
+
+          MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC6J2Z0QeiGbdQM
+
+          t4JKRLmnmh3sHZcVpKDtJ/D+03NeaAIzvRzt4IoWGr0csEm68DF8phVL6kga54o9
+
+          f+zYnzJs9OExWhw4xoATbl2UTlc69e8GZKRFSS4YNkIjJwy2E4oDsHUI9UBFx/2M
+
+          QfWQbo61ijSBvyLT92NbzVGF0XGKXMKQKkVmGxrsSUkLnnguiByDhhpPW6A54YBA
+
+          jLfbyTQLPhfRUr59Tt9AxG72GZ3d/GQLIFfL06wakjKwr2FpyMXpbwPpiQnITkx3
+
+          iiVhnTQKEDgFXl8kNMhhpXwXR1UJjCx8qaMbs2QwCxEtdZR2x/BYrt6jqd0PonQG
+
+          G8ERbTDbAgMBAAECggEAGPxG1R3aNDOI6E1ihc4O+SmcuzSxiFcjaRFuWFWl64BG
+
+          +LjOVDifcB4V+e7IxqLh5trH4FD0F/Wx6VVCmJoC2Pr5QCLZx4kPvGFDhYS0/UCb
+
+          Mh7PVE62istljyBOUCCelVDZieKZG4SfScm58wZ+eGwHZiQdwZjifiTjEfStqlCp
+
+          hwyWLLoilS9/tYBkEBY4ogdlaek13Y5+nk3G3ybEHp2rB6Iw2jE1pjATs+/uvgaN
+
+          LpN/lFjAUnWlFi5qWy2V0sLIReS+xkYCOVCx02Fqh4oxJC2RBGOJsr0GjS4RL9lB
+
+          Jmm6IAdQfNYplJSfaAFmPFUtcSA6Pk+eRH3TV8W6oQKBgQDsaLzV08bqW/FTUHBi
+
+          uddm2UlcD2AgY9Orv0iuUmnlVRfd83+C5G7uVMFUsZv6yYPF013ZuvHQ4tn5jMQR
+
+          2H3ZkUUIVDaUSONvFIU6x8nHiYkzrrhi6V7NnHZ5J2wEaxRnLAUvzew/f+ubpsgd
+
+          g+8RsPSonmJ67nHcxm1r/LsOCwKBgQDJlIgMg+AC1WmUeoAeWPJiSYbscmjWFb2K
+
+          GCdMOTQ3pprSt3EGZ7LTiSM+yB/sxSMvVN9AXMECNad+EjDGGL1qHh1rQFm0oaEo
+
+          FblScDYQ++c9qSKH6AMJygDdcj1csISuzwLnN/eJTW9aq+T74fkZZJWYpFij73Jx
+
+          oAJjAPi6cQKBgBPqauYUljBOGJFtOFqIz2WhrnVr8iwoXL+eOLA+zx77wSv4hGhx
+
+          eArp5vOMlthUu54hxUk/X3m6cqR8QFREia2XeFpQRdzOGyLTdrnR9OSzaHSLJotm
+
+          n47wvGZOdOIWZzydz74MOffLffy52yfpYm16G9JMrX0vszXnHXa4bsWrAoGAZeL6
+
+          RQEe56/AtriYKz6f/IfXd4l4bcT9UWBV9JPxTbObC6iGq0scuwjU1LXIVR9rYlAO
+
+          q3R2ZcyCxRkip+33RzzDd+NFtCQB1cXtLrriyQDZ53OmrXTanEcK2uMUGtZpqgWe
+
+          HQpPxolqIDVD/wA/rNMHPejLmMi9Wqsaqbni/jECgYEAgiWfGsXGkl1zS2iE+WMg
+
+          pfn5AX+cltD9a+gYcNeEzSxMdyK5eAmQcu5a0zsT3vc7Z4cY4L3jlQxWlpXTY10T
+
+          5fbnnU+H7YuJNXK3x6isSzwsocwSbjo2w8sSeS+d8Z5yVX5ZonnvIpcwiet50U9f
+
+          /eWv0nyc3ktI7ee6xoDtl2A=
+
+          -----END PRIVATE KEY-----
+
+          '
+        private_key_id: 69facf28c8bdc8752d4ddb559bd404e7d98b6091
+        project_id: project-c02f22a2-e03c-4345-a97
+        token_uri: https://oauth2.googleapis.com/token
+        type: service_account
+      location: us-central1
+      method: service-account-json
+      project: project-c02f22a2-e03c-4345-a97
+      schema: dbt_mfernandez
+      scopes:
+      - https://www.googleapis.com/auth/bigquery
+      - https://www.googleapis.com/auth/cloud-platform
+      - https://www.googleapis.com/auth/drive
+      - https://www.googleapis.com/auth/userinfo.email
+      target_name: default
+      threads: 4
+      type: bigquery
+  target: default
